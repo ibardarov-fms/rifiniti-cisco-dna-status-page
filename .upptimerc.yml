@@ -3,29 +3,32 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: US - Used by customers to monitor App Health from DNAS Dashboard.
+    url: https://us-cisco-dna.rifiniti.com/production/health-check
+  - name: EU - Used by customers to monitor App Health from DNAS Dashboard.
+    url: https://eu-cisco-dna.rifiniti.com/production/health-check
+    
+  - name: US - Determines health of Customer data being pushed to us.
+    url: https://us-cisco-dna.rifiniti.com/production/api-health-check
+  - name: EU - Determines health of Customer data being pushed to us.
+    url: https://eu-cisco-dna.rifiniti.com/production/api-health-check
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
+  # cname: demo.upptime.js.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: FMS A - Cisco DNA Application status page.
+  introTitle: Monitor the availability of the websites
+  introMessage: This is a status page which uses **real-time** data from our endpoinds
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+    - title: Cisco DNA
+      href: https://www.dnaspaces.io
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
