@@ -7,11 +7,11 @@ sites:
     url: https://us-cisco-dna.rifiniti.com/production/health-check
   - name: EU - Used by customers to monitor App Health from DNAS Dashboard.
     url: https://eu-cisco-dna.rifiniti.com/production/health-check
-    
+
   - name: US - Determines health of Customer data being pushed to us.
-    url: https://us-cisco-dna.rifiniti.com/production/api-health-check
+    url: https://backend-optimo-x-us-east-1-prod.rifiniti.com/cisco/dna/health-check-api
   - name: EU - Determines health of Customer data being pushed to us.
-    url: https://eu-cisco-dna.rifiniti.com/production/api-health-check
+    url: https://backend-optimo-x-eu-central-1-prod.rifiniti.com/cisco/dna/health-check-api
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
