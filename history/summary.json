@@ -4,7 +4,7 @@
     "url": "https://us-cisco-dna.rifiniti.com/production/health-check",
     "icon": "https://favicons.githubusercontent.com/us-cisco-dna.rifiniti.com",
     "slug": "us-used-by-customers-to-monitor-app-health-from-dnas-dashboard",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
