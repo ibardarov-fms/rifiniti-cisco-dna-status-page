@@ -58,7 +58,7 @@
     "url": "https://backend-optimo-x-eu-central-1-prod.rifiniti.com/cisco/dna/health-check-api",
     "icon": "https://icons.duckduckgo.com/ip3/backend-optimo-x-eu-central-1-prod.rifiniti.com.ico",
     "slug": "eu-determines-health-of-customer-data-being-pushed-to-us",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
